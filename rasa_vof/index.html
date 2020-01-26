@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VOF</title>
+    <script type="module" src="https://unpkg.com/@assister/rasa@latest/dist/rasa/rasa.esm.js"></script>
+    <script nomodule src="https://unpkg.com/@assister/rasa@latest/dist/rasa/rasa.js"></script>
+    <link href="https://unpkg.com/@assister/rasa@latest/dist/rasa/rasa.css" rel="stylesheet">
+</head>
+<body>
+    <h1>hey this is a rasa bot for vof</h1>
+    
+     <div id="webchat"/>
+    <script src="https://storage.googleapis.com/mrbot-cdn/webchat-0.5.8.js"> </script>
+    // Or you can replace latest with a specific version
+    <script>
+      WebChat.default.init({
+    selector: "#webchat",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    socketPath: "/socket.io/",
+    title: "VOF-BOT",
+    subtitle: "Ask me anything regarding VOF",
+      })
+    </script> 
+<!-- <rasa-bot server="http://localhost:5005" /> -->
+</body>
+</html>

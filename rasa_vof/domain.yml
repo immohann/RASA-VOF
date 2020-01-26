@@ -1,0 +1,194 @@
+intents:
+- greet
+- goodbye
+- thanks
+- what_is_vof
+- about_bot
+- what_is_choose_crop
+- what_is_tool_swap
+- what_is_buy_seed_fert
+- what_is_book_warehouse
+- what_is_see_mp
+- what_is_list_product
+- what_is_insurance_cal
+- what_is_agri_expert
+- out_of_scope
+- how_are_you
+- respond_greet
+- is_vof_paid
+- use_vof
+- about_otp
+- recommended_crops
+- not_recommended_crops
+- adv_recommended_crops
+- krishitagya
+- soil_testing
+- kt_chargable
+- voice_training
+- customer_care
+- agri_expert_charge
+- claim_insurance
+- purchase_insurance
+- expensive_tools
+- contact_agri_expert
+- mp_authorised
+- rent_tool
+- kt_tool_swap
+- tool_hiring
+- expected_duration_for_selling_product
+- product_in_list_your_product
+- why_agri_expert
+
+actions:
+- utter_greet
+- utter_default
+- utter_goodbye
+- utter_welcome
+- utter_vof
+- utter_bot
+- utter_choose_crop
+- utter_tool_swap
+- utter_seed_fert
+- utter_book_warehouse
+- utter_see_mp
+- utter_list_product
+- utter_insurance_cal
+- utter_agri_expert
+- utter_out_scope
+- utter_how_are_you
+- utter_respond_greet
+- utter_is_vof_paid
+- utter_use_vof
+- utter_about_otp
+- utter_recommended_crops
+- utter_not_recommended_crops
+- utter_adv_recommended_crops
+- utter_krishitagya
+- utter_soil_testing
+- utter_kt_chargable
+- utter_voice_training
+- utter_customer_care
+- utter_agri_expert_charge
+- utter_claim_insurance
+- utter_purchase_insurance
+- utter_expensive_tools
+- utter_contact_agri_expert
+- utter_mp_authorised
+- utter_rent_tool
+- utter_kt_tool_swap
+- utter_tool_hiring
+- utter_expected_duration_for_selling_product
+- utter_product_in_list_your_product
+- utter_why_agri_expert
+- action_hello_world
+
+templates:
+  utter_greet:
+  - text: Hi. What are you looking for?
+  - text: Hello! What can I help you find today?
+  utter_goodbye:
+  - text: Talk to you later!
+  - text: Have a good day.
+  - text: Until next time!
+  utter_welcome:
+  - text: My pleasure.
+  - text: You are welcome!
+  utter_bot:
+  - text: Hey user!!! I am your VOF assistant, I can help you to solve your agriculture
+      problems.
+  utter_vof:
+  - text: value of farmers is a one stop solution to the farmers, where farmer can
+      identify which is most worthy and revenue generating crop for his land [for more info](https://www.google.com/)
+  utter_choose_crop:
+  - text: It is a service where you will get to know which is the best crop to plant
+      in your farm '
+  utter_tool_swap:
+  - text: It is a service where you can rent your tool you can hire any tool for farming
+      (interestingly you can hire human labours also)
+  utter_seed_fert:
+  - text: It is a service where you can buy a quality seeds and fertilizer from a
+      authorized dealer.
+  utter_book_warehouse:
+  - text: It is a service where you can book warehouses from central govt. sites
+  utter_see_mp:
+  - text: It is a service where you can get live rates of important grains with chart
+      and graphical format
+  utter_list_product:
+  - text: It is a service where you can list your product, and it will be visible
+      for online market platform
+  utter_insurance_cal:
+  - text: It is a service which will you can calculate a premium for a crop.
+  utter_agri_expert:
+  - text: it is a service whrere you will get all the agriculture related solutions
+      from agriculture experts
+  utter_out_scope:
+  - text: "I couldn't get you. Can you rephrase?"
+  utter_how_are_you:
+  - text: "I am good, Thanks for asking :), What about you?:"
+    image: "https://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg"
+    
+  utter_respond_greet:
+  - text: "That's great. How can I help you?"
+  utter_is_vof_paid:
+  - text: Value of farmer is a paid service
+  utter_use_vof:
+  - text: Hey Voice based training is provided in application,You can refer that..
+  utter_about_otp:
+  - text: "An OTP is a one time password which will recieve on user's phone, it will have two categories, Start OTP helps to built a secure connections between user and vof, End OTP will insures VOF team that all actions performed correctly by krishitagya."
+  utter_recommended_crops:
+  - text: This crops are recommended through vof by considering  soil qualities and
+      other important parameters
+  utter_mp_authorised:
+  - text: The market price is authorised by the government
+  utter_not_recommended_crops:
+  - text: It is users own choice crop, Where Vof will suggest user about best seeds
+      and fertilizers
+  utter_adv_recommended_crops:
+  - text: Recommended system will help user to choose best crop as per qualities of
+      farm and evantually help to increase the revenue of farm
+  utter_krishitagya:
+  - text: Krishitagya is a paid human resource who will be representative of VOF and
+      help vof with your data so VOF can give you better service.
+  utter_soil_testing:
+  - text: It is a process to estimate the plant-available concentrations of plant
+      nutrients in order to determine fertilizer recommendations in agriculture as
+      well as useful for crop prediction based on soil quality.
+  utter_kt_chargable:
+  - text: ans yet to fill
+  utter_voice_training:
+  - text: It is a preloaded training instructions in VOF application, which is useful
+      for help user to understand working of VOF application better
+  utter_customer_care:
+  - text: "Customer service is the act of taking care of the customer's needs by providing and delivering professional, helpful, high quality service and assistance before,during, and after the customer's requirements are met."
+  utter_agri_expert_charge:
+  - text: Agri-expert charge for their service
+  utter_claim_insurance:
+  - text: You cannot claim an insurance towards VOF
+  utter_purchase_insurance:
+  - text: You cannot purchase insurance from VOF but Vof will redirect you to insurance
+      buying sites
+  utter_expensive_tools:
+  - text: expensive tool may includes heavy machineries or a high worth tool, whereas
+      no expensive tool may includes a product of minimum worth.
+  utter_contact_agri_expert:
+  - text: You can book a agri-expert on this application
+  utter_rent_tool:
+  - text: you can post your tool for rent by entering a detail in rent a tool portal
+  utter_kt_tool_swap:
+  - text: krishitagya will inspect an expensive tools before renting, only after krishitagya
+      approval the user can rent or hire expensive tools.
+  utter_tool_hiring:
+  - text: You can hire a tool by searching a required tool in search bar and by clicking
+      on hire a tool you can hire a tools
+  utter_expected_duration_for_selling_product:
+  - text: "It's completely dependent upon the demand of your product"
+  utter_product_in_list_your_product:
+  - text: You can list any product which are there in category
+  utter_why_agri_expert:
+  - text: It is always worthy to take a suggestion from expert, It will definitely
+      help you in your business
+      
+  utter_default:
+  - text: "Sorry! didn't get it, i'm still under progress! try rephrasing"
+  - text: "Didn't get it, try rephrasing it"
+  
