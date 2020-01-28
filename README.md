@@ -133,11 +133,12 @@ rasa:
  
 4) Now open the webpage and the bot widget should be present and working.
  
- 
- 
- 
+
+
+
  #For adding an image:
- 
+ Below is the format of adding a image into the bot. We cannot directly add the image
+ Instead we add the Url of the image in the *domain.yml* in the actions as:
  
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
