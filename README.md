@@ -136,16 +136,28 @@ rasa:
 
 __________________
 
- #For adding an image:
+ 1. For adding an image:
  
  Below is the format of adding a image into the bot. We cannot directly add the image
  Instead we add the Url of the image in the *domain.yml* in the templates as:
  
+ 
   utter_cheer_up:
  
   - text: "Here is something to cheer you up:"
+  
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
+__________
+
+ 2. For adding a link
+ 
+ For adding link in the bot, add the following code in the *template* of domain.yml
+ 
+ 
+ utter_link:
+
+    - text: "Please click link to continue: [I'm an inline-style link](put your link in here)"
  
  
  
