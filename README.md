@@ -134,7 +134,7 @@ rasa:
 4) Now open the webpage and the bot widget should be present and working.
  
 
-
+__________________
 
  #For adding an image:
  
