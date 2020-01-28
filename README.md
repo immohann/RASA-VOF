@@ -144,9 +144,9 @@ __________________
  
   utter_cheer_up:
  
-   - text: "Here is something to cheer you up:"
-  
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
 __________
 
@@ -155,9 +155,9 @@ __________
  For adding link in the bot, add the following code in the *template* of domain.yml
  
  
- utter_link:
+    utter_link:
 
-    - text: "Please click link to continue: [I'm an inline-style link](put your link in here)"
+       - text: "Please click link to continue: [I'm an inline-style link](put your link in here)"
  
  
  
