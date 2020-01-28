@@ -144,7 +144,7 @@ __________________
  
   utter_cheer_up:
  
-  - text: "Here is something to cheer you up:"
+   - text: "Here is something to cheer you up:"
   
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
