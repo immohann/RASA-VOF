@@ -131,7 +131,7 @@ rasa:
   url: "http://localhost:5005/api" 
 (5005 because rasa server port number is 5005)
  
-4) Now open the webpage and the bot widget should be present and working.
+4) Now open the webpage directly from the *index.html* and the bot widget should be present and working.
  
 
 __________________
