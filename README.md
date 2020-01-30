@@ -157,7 +157,7 @@ __________________
  
     utter_link:
 
-       - text: "Please click link to continue: [click here for link](https://www.google.com/)"
+       - text: "Please click link to continue: [here](https://www.google.com/)"
  
  
  
