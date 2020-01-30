@@ -139,7 +139,7 @@ __________________
  ### For adding an image:
  
  Below is the format of adding a image into the bot. We cannot directly add the image
- Instead we add the Url of the image in the *domain.yml* in the templates as:
+ Instead we add the Url of the image in the *domain.yml* in the *template* as:
  
  
     utter_cheer_up:
@@ -152,7 +152,7 @@ __________________
 
  ### For adding a link
  
- For adding link in the bot, add the following code in the *template* of domain.yml
+ For adding link in the bot, add the following code in the *template* of *domain.yml*
  
  
     utter_link:
