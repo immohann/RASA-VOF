@@ -142,13 +142,13 @@ __________________
  Instead we add the Url of the image in the *domain.yml* in the templates as:
  
  
-  utter_cheer_up:
- 
-    - text: "Here is something to cheer you up:"
+    utter_cheer_up:
 
-      image: "https://i.imgur.com/nGF1K8f.jpg"
+       - text: "Here is something to cheer you up:"
 
-__________
+         image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  __________
 
  2. For adding a link
  
@@ -157,7 +157,7 @@ __________
  
     utter_link:
 
-       - text: "Please click link to continue: [I'm an inline-style link](put your link in here)"
+       - text: "Please click link to continue: [click here for link](https://www.google.com/)"
  
  
  
