@@ -1,7 +1,7 @@
 # RASAS-VOF
 Rasa step-wise documentation
 
-Installation guide:
+### Installation guide:
 1. Install the Python development environment:
 
 Check if your Python environment is already configured:
@@ -75,7 +75,7 @@ Setting up files:
  
 9) Under “rasa” folder, make a “actions.py” file where code for your custom actions is mentioned.
  
-Training and running the bot:
+### Training and running the bot:
  
 In command prompt, activate your environment and go to the “rasa” folder location. Then run the following commands.
  
@@ -136,7 +136,7 @@ rasa:
 
 __________________
 
- 1. For adding an image:
+ ### For adding an image:
  
  Below is the format of adding a image into the bot. We cannot directly add the image
  Instead we add the Url of the image in the *domain.yml* in the templates as:
@@ -150,7 +150,7 @@ __________________
 
   __________
 
- 2. For adding a link
+ ### For adding a link
  
  For adding link in the bot, add the following code in the *template* of domain.yml
  
