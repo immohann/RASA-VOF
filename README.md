@@ -1,4 +1,4 @@
-# Rasa-Chatbot-For-Agriculture-Value-Of-Farmers(VOF) along with the deployment on Web
+# Rasa-Chatbot-For-Agriculture along with the deployment on Web
 
 Rasa-Chatbot-For-Agriculture-Value-Of-Farmers(VOF) to help the farmers via a medium to know about various crop cultivation tactics and the estimation of product usage to make the complete utilization of the available resources. The farmer can contact through a medium(an Agri expert) to know details about the land and preferred methods to do cultivate and know about new resources.
 
