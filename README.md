@@ -1,10 +1,14 @@
+![RASA: ](https://qph.fs.quoracdn.net/main-qimg-fdceedb8c21866c6eec1c7fb80e4b949)
+
+
 # Rasa-Chatbot-For-Agriculture along with the deployment on Web
 
 Rasa-Chatbot-For-Agriculture-Value-Of-Farmers(VOF) to help the farmers via a medium to know about various crop cultivation tactics and the estimation of product usage to make the complete utilization of the available resources. The farmer can contact through a medium(an Agri expert) to know details about the land and preferred methods to do cultivate and know about new resources.
-
+<div style="text-align: center;">
+<img src="voff.gif"  width="700"> </img>
+</div>
 Rasa step-wise documentation
 
-![RASA: ](https://qph.fs.quoracdn.net/main-qimg-fdceedb8c21866c6eec1c7fb80e4b949)
 
 ### Installation guide:
 #### 1. Install the Python development environment:
@@ -38,7 +42,7 @@ Rasa step-wise documentation
       pip3 install -U pip
 
 #### 2. Create a virtual environment (strongly recommended)
-   ##### Ubuntu/macOS:
+   ##### Ubuntu/macOS
    Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
    
     $ python3 -m venv --system-site-packages ./venv
